@@ -30,7 +30,8 @@ body
 {
 	font-family: "Roboto";
 	font-size: 13px;
-	background-color: #2F2F2F;
+	background-color:#2F2F2F;
+	
 	
 }
 
@@ -81,13 +82,13 @@ position: relative;
 
 footer
 {
-	background-color: #FF9933;
-	color: #2F2F2F;
+	background-color: black;
+	color: #FF9933;
 	padding-top: 60px;
 }
 footer .barra-footer
 {
-background-color: grey;
+background-color: #FF9933;
 text-align: center;
 padding-right: 15px;
 padding-left: 15px;
@@ -115,14 +116,15 @@ footer .logo-footer
 
 footer p 
 {
-color: #2F2F2F;
+color:burlywood;
 margin-bottom: 30px;
 
 }
 
 footer a 
 {
-color: #2F2F2F;
+color: burlywood;
+
 
 }
 
@@ -130,6 +132,7 @@ footer .redes
 {
 	font-size: 30px;
 	display: flex;
+	
 	
 
 
@@ -173,7 +176,7 @@ footer .redes a
 
 	color: #FF9933;
 	background-color:  #2F2F2F;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	border: 1px solid #FF9933;
 }
@@ -191,7 +194,9 @@ footer .redes a
 	background-color:  #2F2F2F;
 	
 	font-size: 20px;
-	font-weight: bold;
+	font-weight:bold ;
+	
+	
 }
 
 .boton.boton-negro:hover
@@ -199,6 +204,7 @@ footer .redes a
 
 	color: #2F2F2F;
 	background-color:#FF9933;
+	
 	
 }
 .seccion
@@ -322,22 +328,22 @@ display: block;
 #inicio .bloque-inicio h1
 {
 
-	color: #FF9933;
+	color:burlywood;
 	font-size: 35px;
-	-webkit-text-stroke: 1px rgb(255, 255, 255) ;
+	
 }
 
 #inicio .bloque-inicio p
 {
 
-	color: #FF9933;
+	color:burlywood;
 	font-size: 16px;
 }
 
 #nosotros
 {
 
-	background-image: url(img/latas.jpg);
+	
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -351,14 +357,14 @@ font-size: 16px;
 
 }
 .bloque-servicio {
-	background-color: #FF9933;
-	color: #2F2F2F;
+	background-color: black;
+	color: #FF9933;
 	
 }
 
 #servicios .bloque-servicio
 {
-border: 1px solid grey;
+border: 0px solid grey;
 
 }
 
@@ -439,7 +445,7 @@ filter: grayscale(0);
 {
 
 	padding: 60px;
-	background-color:#2F2F2F;
+	background-color:#FF9933;
 }
 
 #contactenos form .form-block
@@ -476,8 +482,13 @@ margin-bottom: 0;
 .barra-footer 
 {
 	color: white;
+	
 }
 
+.redes{
+
+	color: #FF9933;
+}
 @media(max-width: 767px)
 {
 	body
