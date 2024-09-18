@@ -581,14 +581,16 @@ margin-bottom: 0;
 		-webkit-text-stroke: 1px #2F2F2F;
 		
 		
+		
   
 	}
   
 	 header .container .hamb
 	 {
 		 display: block;
-		 font-size: 40px;
+		 font-size: 30px;
 		 color:#FF9933;
+		margin-left:-200px ;
 		 
 		
 	 }
@@ -659,6 +661,32 @@ margin-bottom: 0;
 	position: relative;
 	height: 50vh;
    }
+
+   header .container a img{
+	display: flex;
+	margin-left: 130px;
+   }
+
+   .container h2{
+margin-left: 70px;
+   }
+
+   #inicio .bloque-inicio p{
+	padding-left: 25px;
+	padding-right: 25px;
+   }
+
+   #mensaje-exito {
+	display: none;
+	color:  #2F2F2F;
+	margin: auto;
+	margin-left: -45px;
+	margin-top: -60px;
+
+
+}
+
+
 
 
 }
