@@ -668,7 +668,7 @@ margin-bottom: 0;
    }
 
    .container h2{
-margin-left: 70px;
+margin-left: 45px;
    }
 
    #inicio .bloque-inicio p{
@@ -684,6 +684,13 @@ margin-left: 70px;
 	margin-top: -60px;
 
 
+}
+
+header {
+	box-shadow: #FF9933 2px 1px 2px 2px;
+	border-bottom: #FF9933 5px;
+	color: #FF9933;
+	
 }
 
 
